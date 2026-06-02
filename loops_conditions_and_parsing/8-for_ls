@@ -2,5 +2,5 @@
 # Displays content of current directory after first dash
 for f in *
 do
-echo ${f#*-}
+echo "${f#*-}"
 done
